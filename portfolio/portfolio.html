@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prekshitha K R | Creative Portfolio</title>
+
+    <style>
+        /* ===== GLOBAL ===== */
+        
+        body {
+            margin: 0;
+            font-family: Poppins, Arial;
+            background: linear-gradient(120deg, #e8f5e9, #f1f8ff);
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px;
+        }
+        /* ===== HERO ===== */
+        
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .heroText {
+            max-width: 500px;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            color: #1b5e20;
+        }
+        
+        .tag {
+            background: #2e7d32;
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        /* ===== CARDS ===== */
+        
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 25px;
+            margin: 30px 0;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        }
+        /* ===== SKILLS ===== */
+        
+        .skills span {
+            background: linear-gradient(45deg, #66bb6a, #81c784);
+            color: white;
+            padding: 8px 16px;
+            margin: 6px;
+            display: inline-block;
+            border-radius: 30px;
+            font-size: 14px;
+        }
+        /* ===== PROJECT GRID ===== */
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+        
+        .project {
+            background: #fafafa;
+            padding: 20px;
+            border-radius: 14px;
+            transition: 0.3s;
+        }
+        
+        .project:hover {
+            transform: scale(1.05);
+            background: #e8f5e9;
+        }
+        /* ===== CONTACT ===== */
+        
+        .contact a {
+            text-decoration: none;
+            margin-right: 15px;
+            color: #1b5e20;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HERO -->
+        <div class="hero">
+            <div class="heroText">
+                <h1>Hi, I'm Prekshitha 👋</h1>
+                <p>Product Thinker • Creative Developer • AI Enthusiast</p>
+
+            </div>
+        </div>
+
+        <!-- ABOUT -->
+        <div class="card">
+            <h2>About Me</h2>
+            <p>
+                I design meaningful digital experiences by combining creativity with technology. As a CSE student and Astronomy Club Creative Lead, I love turning ideas into interactive products.
+            </p>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="card">
+            <h2>Skills & Creativity</h2>
+            <div class="skills">
+                <span>UI Thinking</span>
+                <span>React</span>
+                <span>Firebase</span>
+                <span>Figma</span>
+                <span>AI Projects</span>
+                <span>Problem Solving</span>
+                <span>Creative Strategy</span>
+            </div>
+        </div>
+
+        <!-- PROJECTS -->
+        <div class="card">
+            <h2>Creative Projects</h2>
+
+            <div class="grid">
+
+                <div class="project">
+                    <h3>🌾 Farmers Direct App</h3>
+                    <p>Marketplace concept connecting farmers directly with buyers.</p>
+                </div>
+
+                <div class="project">
+                    <h3>🧠 AI Inscription Analysis</h3>
+                    <p>Deep learning project analyzing ancient scripts.</p>
+                </div>
+
+                <div class="project">
+                    <h3>📚 Focus-Learn Platform</h3>
+                    <p>Distraction-free learning experience design.</p>
+                </div>
+
+                <div class="project">
+                    <h3>🌐 Packet Sniffer Tool</h3>
+                    <p>Network analysis built using C programming.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- DESIGN PROCESS -->
+        <div class="card">
+            <h2>My Design Process</h2>
+            <p>
+                ✨ Understand users → Sketch ideas → Build simple interfaces → Improve with feedback.
+            </p>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="card contact">
+            <h2>Let’s Connect</h2>
+            <a href="mailto:prekshithakr07work@gmail.com">Email</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
